@@ -1,0 +1,102 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: '#f0f8ff';
+}
+.header {
+    display: flex;
+    justify-content: tart;
+    align-items: cente;
+    margin-bottom: 10px;
+}
+
+.icon {
+    font-size: 80px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.title {
+    font-size: 32px;
+    font-weight: bold,
+}
+.profile-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px
+}
+.profile-name {
+    font-size: 24px;
+    color: #333;
+}
+.profileSchool {
+    font-size: 18px;
+    color: #555
+}
+.profileStudentId {
+    font-size: 18px;
+    color: #555,
+}
+.profileSection {
+    margin-bottom: 20px,
+}
+.inputGroup {
+    margin-bottom: 15px
+}
+.label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 5px
+}
+.input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.saveButton {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.icon2{
+    padding: 10px;
+    margin: 10px;
+}
+
+.merchandiseList {
+    display: flex;         /* 横並びにする */
+    gap: 10px;             /* 各要素間のスペース */
+    flex-wrap: wrap;       /* ウィンドウサイズに合わせて折り返し */
+  }
+  
+  .merchandiseCard {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    flex-grow: 1;         /* 可能な範囲でアイテムが同じ幅になるように調整 */
+    flex: 1 1 calc(25% - 10px); /* 最大4つ横並びにする (4列) */
+    max-width: calc(25% - 10px); /* 4つ並んだときの幅を指定 */
+    min-width: 150px;            /* 各カードの最小幅 */
+    box-sizing: border-box;
+  }
+
+  .selle{
+    background: rgb(196, 101, 101);
+    padding: 10px;
+    border-radius: 8px;
+
+  }
+
+  .buyer{
+    background: rgb(122, 122, 212);
+    padding: 10px;
+    border-radius: 8px;
+
+  }

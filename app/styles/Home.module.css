@@ -1,0 +1,38 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+.popularCategory {
+    margin-bottom: 20px;
+}
+
+.circleContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle {
+    width: 200px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products {
+    margin-bottom: 20px,
+}
+
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.productBox {
+    width: 400px;
+    height: 300px;
+    background-color: #d3d3d3;
+}

@@ -1,0 +1,150 @@
+.container {
+  padding: 20px;
+  }
+
+  .box{
+    padding: 20px;
+  }
+  
+  .backButton {
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+
+  .imageBox {
+    width: 30vw;
+    height: 30vw;
+    background-color: #d3d3d3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin-right: 20px;
+    padding: 30px;
+
+  }
+  
+  .image{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .form {
+    padding: 0vw 5vw;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .inputGroup {
+    margin-bottom: 20px;
+  }
+
+  .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  .submitButton {
+    background-color: #ff5c5c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  .containerUpImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    
+  }
+  
+  .imageInput {
+    margin: 10px 30px;
+  }
+  
+  .imageContainer {
+    width: 300px; /* 表示する領域の幅 */
+    height: 300px; /* 表示する領域の高さ */
+    overflow: scroll; /* スクロールバーを表示する */
+    border: 2px solid #ccc;
+  }
+  
+  .previewCanvas {
+    border: 2px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .controlGroup {
+    margin: 10px 0;
+  }
+  
+  .rangeInput {
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .uploadButton {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .uploadButton:hover {
+    background-color: #005bb5;
+  }
+
+  .croppedImage {
+    margin-top: 20px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .icon2{
+    padding: 10px;
+    margin: 10px;
+}
+
+  @media (min-width: 768px) {
+    .container {
+      display: flex;
+    }
+  }

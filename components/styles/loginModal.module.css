@@ -1,0 +1,108 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* 半透明の背景 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* モーダルを最前面に表示 */
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 1001;
+    text-align: center;
+  }
+  
+  /* タイトルのスタイル */
+  .modalTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  /* フォームフィールドのスタイル */
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .formInput {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  .formInput:focus {
+    border-color: #0070f3; /* フォーカス時のボーダー色 */
+  }
+  
+  /* ボタンのスタイル */
+  .primaryButton {
+    background-color: #0070f3;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .primaryButton:hover {
+    background-color: #005bb5; /* ボタンのホバー時の色 */
+  }
+  
+  .googleButton {
+    background-color: #db4437;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .googleButton:hover {
+    background-color: #c23321; /* Googleボタンのホバー時の色 */
+  }
+  
+  /* エラーメッセージのスタイル */
+  .errorMessage {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* キャンセルボタン */
+  .cancelButton {
+    background-color: transparent;
+    color: #0070f3;
+    border: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1rem;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+  }
+  
+  .cancelButton:hover {
+    color: #005bb5;
+  }
